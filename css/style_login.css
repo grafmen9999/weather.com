@@ -1,0 +1,37 @@
+h2 {
+    text-align: center;
+    border: 1px dashed #6c6cfc;
+    padding: 5px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-left: 1px solid #6c6cfc;
+    border-right: 1px solid #6c6cfc;
+}
+
+form div {
+    padding: 5px;
+    text-align: center;
+}
+
+input:not(.logout) {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+}
+
+.form__block {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.help__block {
+    border: 1px solid #6c6cfc;
+    padding: 10px;
+    width: 420px;
+    text-align: center;
+}

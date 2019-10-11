@@ -1,0 +1,56 @@
+body {
+    background: #c0c0c0;
+    font-size: 1.3em;
+}
+
+.center {
+    width: 360px;
+}
+
+.center h2 {
+    text-align: center;
+    background: #ffffff;
+    border: 2px dashed #0c0c0c;
+    border-bottom: none;
+    padding: 5px;
+}
+
+.center form {
+    padding: 10px 20px;
+    background: #ffffff;
+    border: 2px dotted #0c0c0c;
+}
+
+input,
+textarea {
+    outline: none;
+    border: 1px solid #9c9c9c;
+    padding: 5px 10px;
+    transition: background-color 1s;
+}
+
+form #block__name,
+form #block__email {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+form #message {
+    resize: none;
+    width: 100%;
+    min-height: 150px;
+    margin-bottom: 10px;
+}
+
+form #submit {
+    max-width: 120px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+form #submit input {
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px 15px;
+}

@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+
+/** Animation **/
+
+form input:focus,
+form textarea:focus {
+    background: #7fe7e7;
+}
+
+form #submit input:hover {
+    background: #59a7a7;
+}
+
+header {
+    padding: 10px;
+    margin: 10px auto;
+    border-top: 1px solid #2d2ab9;
+    border-bottom: 1px solid #2d2ab9;
+    width: 900px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+header ul li a:link {
+    color: #7c6c7f;
+}
+
+header ul li a:any-link {
+    color: #7537db;
+}
+
+.about-user {
+    text-align: center;
+}
+
+.about-user .user {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5px;
+}
+
+.name:before {
+    content: "Имя: ";
+}
+
+.surname:before {
+    content: "Фамилия: ";
+}
+
+.email:before {
+    content: "email: ";
+}
+
+.logout {
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid #330d0d;
+    font-size: 16px;
+}
+
+.logout:hover {
+    background-color: #5151ff;
+}
+
+.response {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.success {
+    color: #00cc00;
+}
+
+.error {
+    color: #cc0000;
+}

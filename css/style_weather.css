@@ -1,0 +1,33 @@
+h1 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+#today__weather {
+    margin-top: 10px;
+    border: 1px solid gray;
+}
+
+#today__weather #weather-now {
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+#schedule-weather table {
+    width: 100%;
+    background-color: #3f8f3f;
+    color: #330000;
+}
+
+#schedule-weather table tr {
+    margin: 0;
+    padding: 0;
+}
+
+#schedule-weather table td {
+    padding: 5px;
+    width: 40px;
+    text-align: center;
+    border: 1px solid #c8c8c8;
+    margin: 0;
+}

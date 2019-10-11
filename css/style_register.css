@@ -1,0 +1,90 @@
+body {
+    background: #c0c0c0;
+}
+
+.center h2 {
+    width: 360px;
+    text-align: center;
+    padding: 5px 0px;
+    background: #ffffff;
+    border: 1px solid #0c0c0c;
+    border-bottom: none;
+}
+
+.center form {
+    width: 360px;
+    padding: 20px;
+    border: 1px dashed #0c0c0c;
+    background: #ffffff;
+}
+
+form #block__name,
+form #block__email,
+form #block__password,
+form #block__password div {
+    display: flex;
+    flex-direction: column;
+}
+
+form #block__password div {
+    margin-bottom: 10px;
+}
+
+#block__name #firstName+label {
+    margin-top: 10px;
+}
+
+#block__name #lastName {
+    margin-bottom: 10px;
+}
+
+form label+#email {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form #block__sex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+form #block__data-birth {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input {
+    outline: none;
+    border: 1px solid #9c9c9c;
+    padding: 5px 10px;
+    transition: background-color 1s;
+}
+
+form #block__data-birth input::-webkit-outer-spin-button,
+form #block__data-birth input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+    /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+form #submit {
+    width: 160px;
+    margin: 10px auto 0;
+}
+
+form #submit input {
+    background: transparent;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+
+/** Animation **/
+
+form #block__sex input:checked+label {
+    border-bottom: 1px solid #000;
+}
